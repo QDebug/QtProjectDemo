@@ -27,7 +27,9 @@ public:
 
     void colorTest();
 
+    //初始化下载
     void initDownLoadManager();
+
 
 public slots:
     void slotProgressBar(qint64 bytesSent, qint64 bytesTotal);
