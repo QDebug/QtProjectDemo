@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>image/desktop.jpeg</file>
+        <file>image/test1.jpg</file>
+        <file>image/test2.jpg</file>
+        <file>image/checkbox_checked.png</file>
+        <file>image/checkbox_checked_hover.png</file>
+        <file>image/checkbox_checked_pressed.png</file>
+        <file>image/checkbox_unchecked.png</file>
+        <file>image/checkbox_unchecked_hover.png</file>
+        <file>image/checkbox_unchecked_pressed.png</file>
+        <file>image/coffie.qss</file>
+        <file>image/down_arrow.png</file>
+        <file>image/down_arrow_disabled.png</file>
+        <file>image/frame.png</file>
+        <file>image/pagefold.png</file>
+        <file>image/pushbutton.png</file>
+        <file>image/pushbutton_hover.png</file>
+        <file>image/pushbutton_pressed.png</file>
+        <file>image/radiobutton_checked.png</file>
+        <file>image/radiobutton_checked_hover.png</file>
+        <file>image/radiobutton_checked_pressed.png</file>
+        <file>image/radiobutton_unchecked.png</file>
+        <file>image/radiobutton_unchecked_hover.png</file>
+        <file>image/radiobutton_unchecked_pressed.png</file>
+        <file>image/sizegrip.png</file>
+        <file>image/spindown.png</file>
+        <file>image/spindown_hover.png</file>
+        <file>image/spindown_off.png</file>
+        <file>image/spindown_pressed.png</file>
+        <file>image/spinup.png</file>
+        <file>image/spinup_hover.png</file>
+        <file>image/spinup_off.png</file>
+        <file>image/spinup_pressed.png</file>
+        <file>image/up_arrow.png</file>
+        <file>image/up_arrow_disabled.png</file>
+    </qresource>
+    <qresource prefix="/theme">
+        <file>Theme/coffee.qss</file>
+        <file>Theme/blue.qss</file>
+        <file>Theme/dark.qss</file>
+        <file>Theme/grey.qss</file>
+    </qresource>
+    <qresource prefix="/logo">
+        <file>Logo/logo.ico</file>
+    </qresource>
+</RCC>

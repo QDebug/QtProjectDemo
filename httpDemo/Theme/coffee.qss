@@ -1,0 +1,128 @@
+.QWidget {
+    background-color: beige;
+}
+
+
+QLineEdit[echoMode="2"] {
+    lineedit-password-character: 9679;
+}
+
+QPushButton {
+    background-color: palegoldenrod;
+    border-width: 2px;
+    border-color: darkkhaki;
+    border-style: solid;
+    border-radius: 5;
+    padding: 3px;
+    min-width: 9ex;
+    min-height: 2.5ex;
+}
+
+QPushButton:hover {
+    background-color: khaki;
+}
+
+
+
+QPushButton:pressed {
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: #d0d67c
+}
+
+QLabel, QAbstractButton {
+    font: bold;
+}
+
+
+.mandatory {
+    color: brown;
+}
+
+
+QStatusBar QLabel {
+    font: normal;
+}
+
+QStatusBar::item {
+    border-width: 1;
+    border-color: darkkhaki;
+    border-style: solid;
+    border-radius: 2;
+}
+
+QLineEdit, QSpinBox, QDoubleSpinBox, QTextEdit, QSlider, QListView {
+    background-color: cornsilk;
+    selection-color: #0a214c;
+    selection-background-color: #C19A6B;
+}
+
+QComboBox {
+    background-color: cornsilk;
+    selection-color: #0a214c;
+    selection-background-color: #C19A6B;
+    border: 2px solid darkkhaki;
+    border-radius: 3px;
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+}
+
+QListView {
+    show-decoration-selected: 1;
+}
+
+QListView::item:hover {
+    background-color: wheat;
+}
+
+QLineEdit, QFrame {
+    border-width: 2px;
+    padding: 1px;
+    border-style: solid;
+    border-color: darkkhaki;
+    border-radius: 5px;
+}
+
+
+QLineEdit:focus, QFrame:focus {
+    border-width: 3px;
+    padding: 0px;
+}
+
+
+QLabel {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+
+QToolTip {
+    border: 2px solid darkkhaki;
+    padding: 5px;
+    border-radius: 3px;
+    opacity: 200;
+}
+
+
+QRadioButton:hover, QCheckBox:hover {
+    background-color: wheat;
+}
+
+
+QDialogButtonBox {
+    button-layout: 0;
+}
+
+QProgressBar {
+    border: 2px solid rgb(170, 164, 135);
+    border-radius: 5px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: rgb(249, 255, 133);
+    width: 20px;
+    margin: 0.5px;
+}
+
