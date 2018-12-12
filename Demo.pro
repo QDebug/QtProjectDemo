@@ -4,3 +4,4 @@ SUBDIRS += \
     uiDemo \
     httpDemo \
     threadDemo \
+    opencvDemo \
